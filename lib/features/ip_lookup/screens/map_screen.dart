@@ -84,7 +84,7 @@ class _MapScreenState extends State<MapScreen> {
                             Container(
                               padding: const EdgeInsets.all(4),
                               decoration: BoxDecoration(
-                                color: Colors.red.withOpacity(0.8),
+                                color: Colors.red.withAlpha(204),
                                 shape: BoxShape.circle,
                               ),
                               child: const Icon(
@@ -104,7 +104,7 @@ class _MapScreenState extends State<MapScreen> {
                                 borderRadius: BorderRadius.circular(12),
                                 boxShadow: [
                                   BoxShadow(
-                                    color: Colors.black.withOpacity(0.1),
+                                    color: Colors.black.withAlpha(25),
                                     blurRadius: 4,
                                     offset: const Offset(0, 2),
                                   ),
