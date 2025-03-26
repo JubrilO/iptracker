@@ -1,5 +1,5 @@
 import 'package:iptracker/core/result/result.dart';
-import 'package:iptracker/models/ip_data.dart';
+import 'package:iptracker/features/ip_lookup/models/ip_data.dart';
 
 /// Abstract base class for all IP information providers
 abstract class IPService {

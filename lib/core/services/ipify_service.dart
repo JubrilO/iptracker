@@ -1,11 +1,10 @@
-// lib/core/services/ipify_service.dart
 import 'package:dio/dio.dart';
 import 'package:iptracker/core/errors/failure.dart';
 import 'package:iptracker/core/network/dio_client.dart';
 import 'package:iptracker/core/result/result.dart';
 import 'package:iptracker/core/services/ip_service.dart';
 import 'package:iptracker/core/utils/ip_validator.dart';
-import 'package:iptracker/models/ip_data.dart';
+import 'package:iptracker/features/ip_lookup/models/ip_data.dart';
 
 class IPifyService implements IPService {
   final Dio _dio;
