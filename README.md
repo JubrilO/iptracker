@@ -54,6 +54,8 @@ The app uses Provider for state management with the following structure:
 - **flutter_lints**: Static code analysis
 
 ## Screenshots
+<img width="362" alt="Screenshot 2025-03-26 at 05 46 43" src="https://github.com/user-attachments/assets/c226cd3d-d203-4734-a483-b77a0efdbb8c" />
+<img width="368" alt="Screenshot 2025-03-26 at 05 46 55" src="https://github.com/user-attachments/assets/0b600910-9212-434b-b734-843eed885ae9" />
 
 ## Setup and Installation
 
